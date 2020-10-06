@@ -19,7 +19,7 @@ import {
 } from 'react-native';
 
 const App: () => React$Node = () => {
-  const [list, setList] = useState(['aa', 'bb']);
+  const [list, setList] = useState(['Maçã', 'Banana']);
   const [inputValue, setInputValue] = useState('');
 
   function handlePress() {
